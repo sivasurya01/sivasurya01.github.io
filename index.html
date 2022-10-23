@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="sivasurya webdeveloper programmer sivasurya">
+    <meta name="description" content="Hi, Im web developer, I am look for job.Hire me if anyone interested">
+    <meta name="author" content="sivasurya">
+    <meta name="google-site-verification" content="4sxzWlwCFfSyBOCI2OfmOpZ363-Vwvhzw2H43xx1_co" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- My Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div><a href="#" class="nav__logo">Portfolio</a></div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#Projects" class="nav__link">Projects</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- home -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h2 class="home__title">Hi,<br>I am <span class="home__title-color">sivasurya</span><br>I am Web Developer</h2>
+                <a class="button" href=" https://mail.google.com/mail/?view=cm&fs=1&to=sivasuryapgm@gmail.com" target="_blank">hire me</a>
+            </div>
+            <div class="home__social">
+                <a href="https://github.com/MdNaina/" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </section>
+
+        <!-- about  -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="bd-grid about__container">
+                <div class="about__img"><img src="20220317_160801.jpg " alt=""></div>
+                <div>
+                    <h2 class="about__subtitle">I'm sivasurya</h2>
+                    <p class="about__text"> I am Self learner, I know some programming languages and I mastered skills javascript I am project based learner and I work lot of projects(using javascript, css, Html, etc). I manage my Time very efficiently and effectivily, my passion is coding ..! </p>
+                </div>
+            </div>
+        </section>
+        <!-- Skills  -->
+        <section class="skill section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitile">Profesional Skills</h2>
+                    <p class="skills__text">                  I learn some programming language, And I Scale them with Percentage</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon' ></i>
+                            <span class="skills__name">javascript</span>
+                        </div>
+                        <div><span class="skills__persentage">80%</span></div>
+                        <div class="skills__bar skills__javascript"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">html</span>
+                        </div>
+                        <div><span class="skills__persentage">100%</span></div>
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+
+                            <span class="skills__name">css</span>
+                        </div>
+                        <div><span class="skills__persentage">100%</span></div>
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+                </div>
+                <div class="skills__img">
+                    <img src="./skills.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="work section" id="Projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__title">sivasurya</p>
+        <div class="footer__social">
+            <a href="https://github.com/MdNaina/" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <p>&#169; 2020 copyright All rights are reversed</p>
+    </footer>
+    <!-- Scroll Reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDARbooJAKpvmElLk94YH8f7-sKaTcC7mo",
+        authDomain: "mdnaina047.firebaseapp.com",
+        projectId: "mdnaina047",
+        storageBucket: "mdnaina047.appspot.com",
+        messagingSenderId: "318677701570",
+        appId: "1:318677701570:web:43ed93e515d4b01a1e3c5b"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- My Script -->
+    <script src="./app.js"></script>
+</body>
+</html>
